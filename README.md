@@ -1,21 +1,9 @@
 # DBISProject
 Library Management System using Java and MySQL
-<p align="center">
-  <a href="https://github.com/bikashtudu/DBISProject/stargazers">
-    <img alt="GitHub stars" src="https://img.shields.io/github/stars/bikashtudu/DBISProject.svg">
-  </a>
-  <a href="https://github.com/bikashtudu/DBISProject/network">
-    <img alt="GitHub forks" src="https://img.shields.io/github/forks/bikashtudu/DBISProject.svg">
-  </a>
-</p>
- https://bikashtudu.github.io/DBISProject/
 
 # Minor Project
 Course: CS 257
 
-# Developed By
-- Bikash Kumar Tudu [tudu.bikash@gmail.com]
-- Piyush Kalkute
 
 # Environment and Requirement
 - Programming Language: JAVA with  Swings
@@ -48,5 +36,3 @@ Course: CS 257
 5) Database setting can be changed
 - Expand Project->Source Packages->mainlibrary->DB.java
 - Change the Authentication Setting
-
-**NOTE: if any error, check [closed issues](https://github.com/bikashtudu/DBISProject/issues?q=is%3Aissue+is%3Aclosed) too.**
