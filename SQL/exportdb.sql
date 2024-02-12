@@ -113,7 +113,7 @@ CREATE TABLE `IssuedBook` (
 
 LOCK TABLES `IssuedBook` WRITE;
 /*!40000 ALTER TABLE `IssuedBook` DISABLE KEYS */;
-INSERT INTO `IssuedBook` VALUES (5,1,'2016-11-17','2016-12-02'),(12,2,'2016-11-17','2016-12-02'),(6,2,'2016-11-17','2016-12-02');
+INSERT INTO `IssuedBook` VALUES (5,1,'2023-11-17','2023-12-02'),(12,2,'2023-11-17','2023-12-02'),(6,2,'2023-11-17','2023-12-02');
 /*!40000 ALTER TABLE `IssuedBook` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!50003 SET @saved_cs_client      = @@character_set_client */ ;
@@ -245,7 +245,7 @@ CREATE TABLE `Librarian` (
 
 LOCK TABLES `Librarian` WRITE;
 /*!40000 ALTER TABLE `Librarian` DISABLE KEYS */;
-INSERT INTO `Librarian` VALUES (1,'Enco Sier','Encosier','1234','enco.cs.doc@gmail.com'),(2,'Leloush Britannia','Zero','9876','leloush.zero@bitannia.com');
+INSERT INTO `Librarian` VALUES (1,'Test Libr','Test1','1234','test1@gmail.com'),(2,'Test2 Libr','Zero','9876','test2@gmail.com');
 /*!40000 ALTER TABLE `Librarian` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -324,7 +324,7 @@ CREATE TABLE `Users` (
 
 LOCK TABLES `Users` WRITE;
 /*!40000 ALTER TABLE `Users` DISABLE KEYS */;
-INSERT INTO `Users` VALUES (1,'1234','2012-05-15','Deco','deco@gmail.com'),(2,'12345678','2016-11-07','Piyush','pkalkute@gmail.com'),(3,'012345','2016-11-25','NewHero','newhero@gmail.com');
+INSERT INTO `Users` VALUES (1,'1234','2023-05-15','User1','user1@gmail.com'),(2,'12345678','2023-11-07','Usr2','user2@gmail.com'),(3,'012345','2023-11-25','Usr3','user3@gmail.com');
 /*!40000 ALTER TABLE `Users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!50003 SET @saved_cs_client      = @@character_set_client */ ;
